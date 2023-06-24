@@ -1,0 +1,15 @@
+{% extends 'Core/base.html' %}
+
+{% block content %}
+    <article>
+        <h2>Profile Form</h2>
+        <form id="healthForm">
+            <form method="post">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <button type="submit">Enviar</button>
+            </form>
+            
+        </form>
+    </article>
+{% endblock %}

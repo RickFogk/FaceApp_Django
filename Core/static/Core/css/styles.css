@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #343a40;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.login-container {
+    display: flex;
+    align-items: center;
+}
+
+.login-container input[type=text], .login-container input[type=password] {
+    margin-right: 10px;
+    padding: 5px;
+}
+
+section {
+    padding: 20px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Form CSS */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+form {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+form input[type="text"], form input[type="number"], form select, form textarea {
+    width: 25%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+form button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.wrapper{
+    display: flexbox;
+    width: 100%;
+    align-items: column;
+  }
+
+  .boxInfo{
+    border: gray 1px solid;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 1.2em;
+  }
